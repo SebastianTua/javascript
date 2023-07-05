@@ -1,0 +1,25 @@
+---[Clases, classList y metodos de classList]---
+
+-add() - Añade una clase.
+
+-remove() - Remueve una clase.
+
+-item() - Devuelve la clase del indice especificado.
+
+-contains() - Verifica si ese elemento posee o no, la clase especificada.
+
+-replace() - Reemplaza una clase por otra.
+
+-toggle() - Si no tiene la clase especificada, la agrega, si ya la tiene, la elimina.
+
+---[Obtencion y modificacion de elementos]---
+
+-textCotent - Devuelve el texto de cualquier nodo.
+
+-innerText - Devuelve el texto visible de un node element.
+
+-outerText - Devuelve el texto que se encuentra en las etiquetas html incluidas las etiquetas.
+
+-innerHTML - Devuelve el contenido html de un elemento.
+
+-outerHTML - Devuelve el codigo HTML completo del elemento.

@@ -1,0 +1,51 @@
+-------DOM-------
+
+-Nodo - Un node en el DOM es cualquier etiqueta del cuerpo, como un parrafo, el mismo body o incluso las etiquetas de una lista.
+
+ *Document: el nodo document es el nodo raiz, a partir del cual derivan el resto de nodos.
+
+ *Element: nodos definidos por cualquier etiqueta html.
+
+ *Text: el texto dentro de un nodo element se considera un nuevo nodo hijo de tipo text (texto).
+
+ *Attribute: los atributos de las etiquetas definen nodos, (en Javasript no lo veremos como nodos, sino como informacion asociada al nodo de tipo element).
+
+ *Comentarios y otros: los comentarios y otros elementos como las declaraciones doctype en cabecera de los documentos html generan nodos.
+
+
+---[Document - Metodos de seleccion de elementos]---
+
+-getElementById() - Selecciona un elemento por ID.
+
+-getElementsByTagName() - Selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada.
+
+-querySelector() - Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+-querySelectorAll() - Devuelve todos los elementos que coincidan con el grupo especificado de selectores.
+
+---[Attributes - Metodos para Definir, Otener y Eliminar atributos]---
+
+-setAttribute() - Modifica el valor de un atributo.
+
+-getAttribute() - Obtiene el valor de un atributo.
+
+-removeAttribute() - Remueve el valor de un atrubuto.
+
+---[Atributos globales]---
+
+-class - Lista de clases del elemento saparada por espacios.
+
+-contenteditable - Indica si el elemento puede ser modificable por el usuario (bool).
+
+-dir - Indica la direccionalidad del texto.
+
+-hidden - Indica si el elemento aun no es, o ya no es, relevante.
+
+-id - Define un identificador unico.
+
+-style - Contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+
+-tabindex - Indica si el elemento puede obtener un focus de input.
+
+-title - Contiene un texto con informacion relacionada al elemento al que pertenece.
+

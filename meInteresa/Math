@@ -1,0 +1,15 @@
+----Metodos----
+sqrt() - Devuelve la raiz cuadrada positiva de un numero
+cbrt() - Devuelve la raiz cubica de un numero
+max() - Devuelve el mayor de cero o mas numeros
+min() - Devuelve el mas pequeño de cero o mas numeros
+random() - Devuelve un numero pseudo-aleatorio entre 0 y 1
+round() - Devuelve el valor de un numero redondeado al numero entero mas cercano
+fround() - Devuelve la representacion flotante de precision simple mas cercana de un numero
+floor() - Devuelve el mayor entero menor que o igual a un numero
+trunc() - Devuelve la parte entera del numero x, la eliminacion de los digitos fraccionarios
+
+----Propiedades----
+PI - Ratio de la circunferencia de un circulo respecto a su diametro, aproximadamente 3.14159
+SQRT1_2 - Raiz cuadradade 1/2; Equivalente, 1 sobre la raiz cuadrada de 2, aproximadamente 0.707
+SQRT2 - Raiz cuadrada de 2, aproximadamente 1.414
