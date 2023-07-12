@@ -47,7 +47,7 @@ const definirMensaje = (pr)=>{
 
 const verificarAprobacion = (nota1,nota2,prevRes)=>{
     promedio = (nota1 + nota2 + prevRes)/3;
-    if (promedio >= 7){
+    if (promedio >= 6){
         return "<span class='green'>Aprobado</span>";
     }
     return "<span class='red'>Desaprobado</span>";

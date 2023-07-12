@@ -1,0 +1,13 @@
+----Datos Estructurados[JSON]---
+
+-[Definicion, Usos y sintaxis] - JSON es un formato de datos basado en texto que sigue la sintaxis de objeto de JavaScript, popularizado por Douglas Crockford. Aunque es muy parecido a la sintaxis de objeto literal de JavaScript, puede ser utilizado independientemente de JavaScript, y muchos entornos de programación poseen la capacidad de leer (convertir; parsear) y generar JSON.
+
+Los JSON son cadenas - útiles cuando se quiere transmitir datos a través de una red. Debe ser convertido a un objeto nativo de JavaScript cuando se requiera acceder a sus datos. Ésto no es un problema, dado que JavaScript posee un objeto global JSON que tiene los métodos disponibles para convertir entre ellos 
+
+-[Serializacion y Deserializacion] - La serialización es el proceso de convertir el estado de un objeto en un formato que se pueda almacenar o transportar. El complemento de serialización es deserialización, que convierte una secuencia en un objeto. Juntos, estos procesos permiten almacenar y transferir datos.
+
+-Metodo parse() - Convierte un string con estructura JSON a formato JSON (deserializar)
+
+-Metodo stingify() - Corvierte un dato de JavaScript en una cadena de texto JSON (serializar)
+
+-JSON PolyFill - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
